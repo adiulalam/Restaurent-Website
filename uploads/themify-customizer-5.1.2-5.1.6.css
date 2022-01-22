@@ -1,0 +1,39 @@
+/* Themify Customize Styling */
+h1 {		font-size:95px;
+ 
+}
+#headerwrap {	background: none;
+	background-color: #000000;background-image: none; 
+}
+#header {		text-align:left;
+	color: #000000; 
+}
+#pagewrap #headerwrap.fixed-header, .transparent-header #pagewrap #headerwrap.fixed-header {	background: none;
+	background-color: rgba(0,0,0,0.38);background-image: none; 
+}
+body #site-logo a img {		width: 80px; 
+}
+#site-description {	display: none; 
+}
+#main-nav-wrap #main-nav a {	
+	background-color: transparent; 
+}
+#main-nav a {		font-size:20px;
+ 
+}
+#main-nav a, #main-nav > li > a, .transparent-header #main-nav a {	
+	color: #ffffff; 
+}
+#main-nav-wrap #main-nav a:hover {	background: none;
+	background-color: #000000; 
+}
+@media screen and (max-width: 1024px) { /* Themify Customize Styling */
+body #site-logo a img {		width: 80px; 
+}
+ }@media screen and (max-width: 768px) { /* Themify Customize Styling */
+body #site-logo a img {		width: 80px; 
+}
+ }@media screen and (max-width: 600px) { /* Themify Customize Styling */
+body #site-logo a img {		width: 80px; 
+}
+ }
